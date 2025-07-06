@@ -11,10 +11,10 @@ public class SearchXInSortedArray {
 
     private static int findX(int[] input, int target) {
         int startIndex = 0;
-        int endIndex = input.length-1;
+        int endIndex = input.length - 1;
         while (startIndex <= endIndex) {
-            int midIndex = startIndex + (endIndex-startIndex)/2;
-            if(input[midIndex] == target) {
+            int midIndex = startIndex + (endIndex - startIndex) / 2;
+            if (input[midIndex] == target) {
                 return midIndex;
             } else if (input[midIndex] < target) {
                 startIndex = midIndex + 1;
@@ -32,11 +32,11 @@ public class SearchXInSortedArray {
 
     private static int findX(int[] input, int target, int startIndex, int endIndex) {
         //pre-condition
-        if(startIndex > endIndex) return -1;
+        if (startIndex > endIndex) return -1;
 
         //calculating mid index
-        int midIndex = startIndex + (endIndex - startIndex)/2;
-        if(input[midIndex] == target) return midIndex;
+        int midIndex = startIndex + (endIndex - startIndex) / 2;
+        if (input[midIndex] == target) return midIndex;
         else if (input[midIndex] < target) return findX(input, target, midIndex + 1, endIndex);
         else return findX(input, target, startIndex, endIndex - 1);
     }

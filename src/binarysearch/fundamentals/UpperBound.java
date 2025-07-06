@@ -7,9 +7,9 @@ package binarysearch.fundamentals;
  * that is strictly greater than the given target.
  * <p>
  * Assumes the input array is sorted in non-decreasing order.
- *
+ * <p>
  * Input:  int[] input - sorted array
- *         int target  - value to search for
+ * int target  - value to search for
  * Output: int - index of the upper bound (or input.length if target is greater than or equal to all elements)
  * <p>
  * Problem Statement: Given a sorted array of nums and an integer x, write a program to find the upper bound of x.
@@ -30,8 +30,8 @@ public class UpperBound {
         int endIndex = input.length - 1;
 
         while (startIndex <= endIndex) {
-            int midIndex = startIndex + (endIndex - startIndex)/2;
-            if(input[midIndex] <= target) {
+            int midIndex = startIndex + (endIndex - startIndex) / 2;
+            if (input[midIndex] <= target) {
                 startIndex = midIndex + 1;
             } else {
                 endIndex = midIndex - 1;
@@ -46,11 +46,11 @@ public class UpperBound {
     }
 
     private static int findUpperBound(int[] input, int target, int startIndex, int endIndex) {
-        if(startIndex > endIndex) return startIndex;
+        if (startIndex > endIndex) return startIndex;
 
-        int midIndex = startIndex + (endIndex - startIndex)/2;
+        int midIndex = startIndex + (endIndex - startIndex) / 2;
 
-        if(input[midIndex] <= target) return findUpperBound(input, target, midIndex + 1, endIndex);
+        if (input[midIndex] <= target) return findUpperBound(input, target, midIndex + 1, endIndex);
         else return findUpperBound(input, target, startIndex, midIndex - 1);
     }
 }
