@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b18b81-2db2-4413-ac65-df42d31bbbb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binarysearch/logicbuilding/FindHowManyTimeArrayIsRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearch/logicbuilding/MinInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearch/logicbuilding/SearchInRotatedSortedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binarysearch/logicbuilding/SingleElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/onanswers/NthRootOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/onanswers/SquareRootOfNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -48,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleElementInSortedArray">
+  <component name="RunManager" selected="Application.NthRootOfNumber">
     <configuration name="FindHowManyTimeArrayIsRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.FindHowManyTimeArrayIsRotated" />
       <module name="DSA Grind" />
@@ -62,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.MinInRotatedSortedArray" />
+    <configuration name="NthRootOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.onanswers.NthRootOfNumber" />
       <module name="DSA Grind" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.logicbuilding.*" />
+          <option name="PATTERN" value="binarysearch.onanswers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.SearchInRotatedSortedArrayII" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.SearchInsertPosition" />
       <module name="DSA Grind" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.fundamentals.UpperBound" />
+    <configuration name="SquareRootOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.onanswers.SquareRootOfNumber" />
       <module name="DSA Grind" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.fundamentals.*" />
+          <option name="PATTERN" value="binarysearch.onanswers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NthRootOfNumber" />
+        <item itemvalue="Application.SquareRootOfNumber" />
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.SingleElementInSortedArray" />
         <item itemvalue="Application.FindHowManyTimeArrayIsRotated" />
-        <item itemvalue="Application.MinInRotatedSortedArray" />
-        <item itemvalue="Application.SearchInRotatedSortedArrayII" />
-        <item itemvalue="Application.UpperBound" />
       </list>
     </recent_temporary>
   </component>
@@ -140,12 +143,39 @@
       <option name="project" value="LOCAL" />
       <updated>1751921065787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Binary search - 08/07/2025">
+      <created>1752007435556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752007435556</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Binary search - 09/07/2025">
+      <created>1752081198571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752081198571</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Binary search - 07/07/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search - 07/07/2025" />
+    <MESSAGE value="Binary search - 08/07/2025" />
+    <MESSAGE value="Binary search - 09/07/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search - 09/07/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,6 +204,16 @@
           <url>file://$PROJECT_DIR$/src/binarysearch/fundamentals/SearchXInSortedArray.java</url>
           <line>20</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/onanswers/SquareRootOfNumber.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/onanswers/SquareRootOfNumber.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
