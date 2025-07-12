@@ -7,6 +7,8 @@ package binarysearch.onanswers;
  *
  * <p>This problem models a classic binary search on the answer space, where the goal is to
  * minimize the divisor while satisfying the constraint on the transformed sum.
+ * <p>
+ * In this problem we try to <b>minimize the maximum</b>
  *
  * <p>Key Highlights:
  * <ul>
@@ -35,7 +37,7 @@ public class SmallestDivisor {
         System.out.println(findSmallestDivisorRecursively(input, target, start, end));
     }
 
-    static int findMax(int[] input) {
+    public static int findMax(int[] input) {
         int max = Integer.MIN_VALUE;
         for(int i : input) {
             max = Math.max(i, max);
