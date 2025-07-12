@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b18b81-2db2-4413-ac65-df42d31bbbb7" name="Changes" comment="" />
+    <list default="true" id="54b18b81-2db2-4413-ac65-df42d31bbbb7" name="Changes" comment="Binary Search - 10/07/2025">
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearch/onanswers/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearch/onanswers/KokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearch/onanswers/MBouquetsInMinDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearch/onanswers/MBouquetsInMinDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binarysearch/onanswers/SmallestDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysearch/onanswers/SmallestDivisor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +27,39 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BinarySearch/09072025" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nameispavann"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nameispavann/DSA-Grind.git&quot;,
+    &quot;accountId&quot;: &quot;bc46ebfe-0d28-4008-a991-0884c08685d8&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;nameispavann&quot;,
+    &quot;repository&quot;: &quot;DSA-Grind&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2zVSlKBbzL0dvpGyrEoL0tZKgVk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,22 +67,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AggressiveCows.executor": "Run",
+    "Application.BookAllocation.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "BinarySearch/10072025",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.log"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NthRootOfNumber">
-    <configuration name="FindHowManyTimeArrayIsRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.FindHowManyTimeArrayIsRotated" />
+  <component name="RunManager" selected="Application.BookAllocation">
+    <configuration name="AggressiveCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.faqs.AggressiveCows" />
       <module name="DSA Grind" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.logicbuilding.*" />
+          <option name="PATTERN" value="binarysearch.faqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.faqs.BookAllocation" />
+      <module name="DSA Grind" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.faqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.logicbuilding.SingleElementInSortedArray" />
-      <module name="DSA Grind" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarysearch.logicbuilding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SquareRootOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.onanswers.SquareRootOfNumber" />
       <module name="DSA Grind" />
@@ -112,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookAllocation" />
+        <item itemvalue="Application.AggressiveCows" />
         <item itemvalue="Application.NthRootOfNumber" />
         <item itemvalue="Application.SquareRootOfNumber" />
         <item itemvalue="Application.SearchInsertPosition" />
-        <item itemvalue="Application.SingleElementInSortedArray" />
-        <item itemvalue="Application.FindHowManyTimeArrayIsRotated" />
       </list>
     </recent_temporary>
   </component>
@@ -150,8 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752081198571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Binary Search - 10/07/2025">
+      <option name="closed" value="true" />
+      <created>1752178810862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752178810862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="DIFF_PREVIEW_VERTICAL_SPLIT" value="true" />
+    <option name="SHOW_DETAILS" value="true" />
+    <option name="SHOW_ROOT_NAMES" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -169,7 +217,8 @@
     <MESSAGE value="Binary search - 08/07/2025" />
     <MESSAGE value="Binary search - 09/07/2025" />
     <MESSAGE value="Binary search - 10/07/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search - 10/07/2025" />
+    <MESSAGE value="Binary Search - 10/07/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search - 10/07/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +257,112 @@
           <url>file://$PROJECT_DIR$/src/binarysearch/onanswers/SquareRootOfNumber.java</url>
           <line>41</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>50</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/AggressiveCows.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>16</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/faqs/BookAllocation.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
